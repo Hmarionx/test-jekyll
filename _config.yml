@@ -1,8 +1,18 @@
 title: Test Jekyll
 description: Site de test pour GitHub Pages
-# À adapter pour un site de projet : baseurl: "/test-jekyll"
+# Laissés vides : le workflow fournit le baseurl via configure-pages
 baseurl: ""
 url: ""
-theme: minima
-plugins:
-  - jekyll-feed
+
+theme: just-the-docs
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+aux_links:
+  "Voir sur GitHub":
+    - "https://github.com/"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
