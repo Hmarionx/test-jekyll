@@ -1,5 +1,5 @@
-title: Test Jekyll
-description: Site de test pour GitHub Pages
+title: Révisions Bac Pro – Histoire-Géo-EMC
+description: Notes de révision pour les élèves de Terminale Bac Pro
 # Laissés vides : le workflow fournit le baseurl via configure-pages
 baseurl: ""
 url: ""
@@ -11,6 +11,23 @@ heading_anchors: true
 aux_links:
   "Voir sur GitHub":
     - "https://github.com/"
+
+callouts:
+  highlight:
+    title: Exemple
+    color: yellow
+  important:
+    title: L'essentiel
+    color: blue
+  new:
+    title: Astuce
+    color: green
+  note:
+    title: Info
+    color: purple
+  warning:
+    title: Attention
+    color: red
 
 exclude:
   - Gemfile

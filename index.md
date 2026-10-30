@@ -1,20 +1,37 @@
 ---
-title: Accueil
 layout: default
+title: "Accueil"
 nav_order: 1
-description: Site Jekyll de test déployé sur GitHub Pages
-permalink: /
+permalink: "/"
 ---
 
-# Bienvenue
-{: .fs-9 }
+# Révisions Bac Pro – Histoire, Géographie, EMC
 
-Ce site Jekyll est déployé sur GitHub Pages via GitHub Actions.
-{: .fs-6 .fw-300 }
+Notes de révision pour les élèves de **Terminale Bac Pro**, en préparation de l'épreuve d'histoire-géographie et d'enseignement moral et civique.
 
-[Voir la page suivante]({% link about.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Retour en haut](#bienvenue){: .btn .fs-5 .mb-4 .mb-md-0 }
+## Où trouver quoi
 
----
+| Matière | Contenu | État |
+|:--------|:--------|:-----|
+| [Méthode et épreuve]({{ site.baseurl }}{% link methode.md %}) | Comment réussir les exercices de l'épreuve | Disponible |
+| [Histoire]({{ site.baseurl }}{% link histoire/index.md %}) | *France et monde depuis 1945* : 2 thèmes, 6 fiches | Disponible |
+| [Géographie]({{ site.baseurl }}{% link geographie/index.md %}) | Thèmes de Terminale | À compléter |
+| [EMC]({{ site.baseurl }}{% link emc/index.md %}) | Questions d'enseignement moral et civique | À compléter |
+| [Repères]({{ site.baseurl }}{% link reperes.md %}) | Frise des dates à connaître | Disponible |
 
-Si vous lisez cette page en ligne, le déploiement fonctionne.
+## Comment réviser
+
+1. **Lis la fiche** en repérant les mots en gras et les dates.
+2. **Cache la fiche** et essaie de réciter l'essentiel avec tes mots.
+3. **Teste-toi** avec les questions « Pour t'entraîner » en bas de chaque page (clique pour voir la réponse).
+4. **Reviens** sur ce que tu as oublié le lendemain, puis une semaine plus tard.
+
+{: .new-title }
+> Astuce
+>
+> Utilise la barre de recherche en haut pour retrouver une date, un événement ou un mot de vocabulaire.
+
+{: .warning-title }
+> À vérifier
+>
+> Ces notes sont une aide à la révision. Appuie-toi toujours sur ton cours et sur le programme officiel de ta classe.
