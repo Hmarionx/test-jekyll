@@ -1,0 +1,8 @@
+title: Test Jekyll
+description: Site de test pour GitHub Pages
+# À adapter pour un site de projet : baseurl: "/test-jekyll"
+baseurl: ""
+url: ""
+theme: minima
+plugins:
+  - jekyll-feed
